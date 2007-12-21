@@ -16,6 +16,7 @@ BuildRequires:	perl-XML-Parser >= 2.30
 BuildArch:	noarch
 Provides:	perl-libxml-enno
 Obsoletes:	perl-libxml-enno
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 This is a Perl extension that allows you to perform XQL queries on XML
