@@ -3,12 +3,12 @@
 
 Summary:	XML::XQL - query XML tree structures with XQL
 Name:		perl-%{modname}
-Version:	%perl_convert_version %{modver}
-Release:	17
+Version:	%{modver}
+Release:	18
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{modname}
-Source0:	http://search.cpan.org/CPAN/authors/id/T/TJ/TJMATHER/%{modname}-%{modver}.tar.bz2
+Url:		https://metacpan.org/dist/XML-XQL
+Source0:	https://cpan.metacpan.org/authors/id/T/TJ/TJMATHER/XML-XQL-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	make
 BuildRequires:	perl-devel
